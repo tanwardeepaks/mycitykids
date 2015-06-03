@@ -1,0 +1,12 @@
+[24-Jul-2014 21:26:54 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING in /home/promeanc/public_html/carsell/app/Config/core.php on line 1
+[27-Jul-2014 21:01:11 CST6CDT] PHP Parse error:  syntax error, unexpected T_STRING in /home/promeanc/public_html/carsell/app/Config/routes.php on line 3
+[28-Jul-2014 21:28:20 CST6CDT] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'SplFileObject::__construct(/home/promeanc/public_html/carsell/app/tmp/cache/models/myapp_cake_model_default_promeanc_carsell_car_models) [<a href='splfileobject.--construct'>splfileobject.--construct</a>]: failed to open stream: No such file or directory' in /home/promeanc/public_html/carsell/lib/Cake/Cache/Engine/FileEngine.php:278
+Stack trace:
+#0 /home/promeanc/public_html/carsell/lib/Cake/Cache/Engine/FileEngine.php(278): SplFileObject->__construct('/home/promeanc/...', 'r')
+#1 /home/promeanc/public_html/carsell/lib/Cake/Cache/Engine/FileEngine.php(235): FileEngine->_clearDirectory('/home/promeanc/...', 1406600900, 1406600890)
+#2 /home/promeanc/public_html/carsell/lib/Cake/Cache/Engine/FileEngine.php(100): FileEngine->clear(true)
+#3 /home/promeanc/public_html/carsell/lib/Cake/Cache/Cache.php(184): FileEngine->gc()
+#4 /home/promeanc/public_html/carsell/lib/Cake/Cache/Cache.php(151): Cache::_buildEngine('_cake_model_')
+#5 /home/promeanc/public_html/carsell/ in /home/promeanc/public_html/carsell/lib/Cake/Cache/Engine/FileEngine.php on line 278
+[07-Aug-2014 00:13:50 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/promeanc/public_html/carsell/app/Controller/UsersController.php on line 499
+[07-Aug-2014 00:13:55 CST6CDT] PHP Parse error:  syntax error, unexpected T_IF in /home/promeanc/public_html/carsell/app/Controller/UsersController.php on line 499

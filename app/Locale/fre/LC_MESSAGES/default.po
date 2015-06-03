@@ -1,0 +1,11 @@
+msgid "Dashboard"
+
+msgstr "Tableau de bord"
+
+msgid "Category"
+
+msgstr "Catégorie"
+
+msgid "Add Category"
+
+msgstr "Ajouter catégorie"
